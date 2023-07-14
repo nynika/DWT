@@ -1,0 +1,63 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Cabin|Herr+Von+Muellerhoff|Source+Sans+Pro:400,900&display=swap');
+/*Global styles*/
+
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Roboto', sans-serif, cursive;
+  --body-font: 'Roboto', sans-serif;
+  --main-font-color-dark: #090909;
+  --secondary-font-color: rgb(86, 43, 20);
+  --body-font-color: #000000;
+}
+
+.center_absolute{
+    text-align: center;
+    margin-top: 70px;
+}
+
+
+
+
+img{
+    height: 200px;
+    width:200px;
+    margin-left: 650px; 
+    margin-top: 70px;
+}
+@media screen and (max-width: 900px) {
+    img{
+        height: 200px;
+        width:200px;
+        margin-left: 100px; 
+        margin-top: 70px;
+    }
+    .center_absolute {
+        text-align: center;
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 359px)
+ {
+    img{
+        height: 200px;
+        width:200px;
+        margin-left: 100px; 
+        margin-top: 70px;
+    }
+    .center_absolute {
+        text-align: center;
+        margin-top: 120px;
+    } 
+}
